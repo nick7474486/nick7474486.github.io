@@ -1,0 +1,130 @@
+
+	
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>서부발전 작업자 안전관리 시스템 프로토타입</title>
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+        * {
+            margin: 0px; padding: 0px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        #wrap {
+            background-image: url("img/bg.jpg");
+            width: 100%;
+            height: 961px;
+            background-color: #080B1C;
+                 
+        }
+        header {
+/*            background-color: red;*/
+            width: 1600px;
+            margin: 0 auto;  
+            padding: 70px;
+            position: relative;
+            
+        }
+        header .img1 {
+            width: 148px;
+            margin-right: 500px
+        }
+        header img {
+            width: 303px;
+            float: left;
+        }
+        
+        
+        header .img3{
+            width: 148px;
+            position: absolute;
+            right: 70px;
+        }
+        main {
+/*          background-color: red;*/
+            color: #fff;
+            padding: 160px 460px 120px 360px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        main .pc {
+            float: left;   
+        }
+        main .pc:hover img,main .mobile:hover img{
+            box-shadow: 0px 0px 20px #04B4FF;
+            color: #04B4FF;
+            transition: all 0.3s;
+            
+        }
+        main .pc:hover a,main .mobile:hover a{
+            transition: all 0.3s;
+            color: #04B4FF;
+           
+            
+        }
+        main .mobile {
+             float: right;
+        }
+        main .pc img{
+            width: 600px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border: 1px solid #095989;
+        }
+         main .mobile img{
+            width: 157px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border: 1px solid #095989;
+        }
+        main:after {
+            content: "";
+            display:block;
+            clear: both;
+        }
+
+        main .pc a,main .mobile a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+/*
+         main .mobile a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+*/
+        .pc span,.mobile span {
+            font-size: 16px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+       <header>
+          <img class="img1" src="img/00_img1.png">
+          <div class="img2"><img src="img/01_img.png"></div>
+          <img class="img3" src="img/03_img.png">
+       </header>
+       <main>
+           <div class="pc">
+               <a href="https://www.figma.com/proto/3DiqnIJWkSGje1g73hRJyf/%EC%84%9C%EB%B6%80%EB%B0%9C%EC%A0%84_%EC%9E%91%EC%97%85%EC%9E%90%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC_Blue?page-id=1047%3A29655&node-id=1057%3A31745&viewport=406%2C441%2C0.06&scaling=min-zoom&starting-point-node-id=1060%3A35536" target="_blank"><img src="img/04_img2.png">
+               <p><span>방제실관리자</span><br> PC</p></a>
+           </div>
+           <div class="mobile">
+               <a href="https://www.figma.com/proto/3DiqnIJWkSGje1g73hRJyf/%EC%84%9C%EB%B6%80%EB%B0%9C%EC%A0%84_%EC%9E%91%EC%97%85%EC%9E%90%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC_Blue?page-id=376%3A6310&node-id=376%3A7577&viewport=2480%2C7701%2C1&scaling=scale-down&starting-point-node-id=376%3A6652" target="_blank"><img src="img/05_img.png">
+               <p><span>작업책임자</span><br> Mobile</p></a>
+           </div>
+           
+       </main>
+        
+    </div>
+	
+	
+	
+</body>
+</html>
